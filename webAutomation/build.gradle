@@ -1,0 +1,41 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+tasks.register('runWebTests', Test) {
+
+    outputs.upToDateWhen { false }
+
+    useTestNG {
+
+        useDefaultListeners true
+
+        outputDirectory = file("$buildDir/web-reports")
+
+    }
+
+}
+
+
+dependencies {
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.11.0'
+    testImplementation group: 'org.testng', name: 'testng', version: '7.8.0'
+    implementation 'io.github.bonigarcia:webdrivermanager:5.1.1'
+
+}
+
+test {
+    useTestNG()
+}
+tasks.withType(Test) {
+
+    systemProperties System.properties
+
+}
