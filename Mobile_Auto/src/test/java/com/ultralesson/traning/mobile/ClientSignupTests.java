@@ -7,6 +7,7 @@ public class ClientSignupTests {
     @Test
     public void clientShouldBeAbleToSignupSuccessfully() {
         //Arrange
+        System.out.println("hello");
 //        LauncherScreen launcherScreen = new LauncherScreen(mobileDriver); // Assume mobileDriver is created and handy.
 //        launcherScreen.navToClientSignup();
 //
