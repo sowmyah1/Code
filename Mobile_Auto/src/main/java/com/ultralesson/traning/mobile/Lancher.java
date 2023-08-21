@@ -1,4 +1,4 @@
-package org.ultralesson.traning.mobile;
+package com.ultralesson.traning.mobile;
 
 import io.appium.java_client.FindsByAndroidUIAutomator;
 import io.appium.java_client.MobileElement;

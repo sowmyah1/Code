@@ -1,13 +1,12 @@
-package org.ultralesson.traning.mobile.screens;
+package com.ultralesson.traning.mobile.screens;
 
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileDriver;
 
 public class LauncherScreen {
 
     private AppiumDriver appiumDriver;
 
-    public LauncherScreen(MobileDriver mobileDriver) {
+    public LauncherScreen(AppiumDriver appiumDriver) {
         this.appiumDriver = appiumDriver;
     }
 

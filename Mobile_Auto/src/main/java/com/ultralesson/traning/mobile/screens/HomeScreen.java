@@ -1,4 +1,4 @@
-package org.ultralesson.traning.mobile.screens;
+package com.ultralesson.traning.mobile.screens;
 
 import io.appium.java_client.AppiumDriver;
 

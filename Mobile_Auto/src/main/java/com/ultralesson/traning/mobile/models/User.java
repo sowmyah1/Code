@@ -1,4 +1,4 @@
-package org.ultralesson.traning.mobile.models;
+package com.ultralesson.traning.mobile.models;
 
 public class User {
     private String email;

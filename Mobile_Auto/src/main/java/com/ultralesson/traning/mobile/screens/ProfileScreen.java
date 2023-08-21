@@ -1,7 +1,7 @@
-package org.ultralesson.traning.mobile.screens;
+package com.ultralesson.traning.mobile.screens;
 
+import com.ultralesson.traning.mobile.models.User;
 import io.appium.java_client.AppiumDriver;
-import org.ultralesson.traning.mobile.models.User;
 
 public class ProfileScreen {
 

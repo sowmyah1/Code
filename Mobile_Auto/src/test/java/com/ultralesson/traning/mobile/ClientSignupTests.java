@@ -1,12 +1,6 @@
-package org.ultralesson.traning.mobile;
+package com.ultralesson.traning.mobile;
 
-import org.ultralesson.traning.mobile.models.User;
-import org.ultralesson.traning.mobile.screens.HomeScreen;
-import org.ultralesson.traning.mobile.screens.LauncherScreen;
-import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.ultralesson.traning.mobile.screens.ProfileScreen;
-import org.ultralesson.traning.mobile.screens.SignupScreen;
 
 public class ClientSignupTests {
 
