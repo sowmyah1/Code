@@ -24,7 +24,7 @@ public class sumOfArray {
             }  if (sum > s ) {
                 sum = sum - arr[i];
                 i++;
-                System.out.print(sum+" ");
+//                System.out.print(sum+" ");
             }
         }
         if(sum==s&&list.size()==0){
