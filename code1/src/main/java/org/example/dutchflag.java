@@ -1,2 +1,5 @@
-package org.example;public class dutchflag {
+package org.example;
+
+public class dutchflag {
+
 }
