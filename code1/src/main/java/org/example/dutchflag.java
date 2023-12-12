@@ -3,30 +3,31 @@ package org.example;
 public class dutchflag {
     public static void dutchNationalFlag(int[] a){
         int i=0,j=0,k=a.length-1;
-        int temp=0;
-        System.out.println("qwed");
-        for(i=0;i<a.length;i++){
-            j=i;
-        while(j<k && j<a.length){
-            System.out.println(a[j]+"im for  loop");
-            if(a[j]>a[k]){
+        int temp;
+        while(j<=k){
+            if(a[j]==0){
+                temp=a[i];
+                a[i]=a[j];
+                a[j]=temp;
+                i++; j++;
+            }
+            else if (a[j]==1){
+                j++;
+            }
+            else if (a[j]==2){
                 temp=a[k];
                 a[k]=a[j];
                 a[j]=temp;
-                j++;
-                k--;
-                System.out.println(a[j]);
-            }
-            else {
                 k--;
             }
-        }}
+        }
+
         for(int m=0;m<a.length;m++){
-            System.out.println(a[m]+ " im m");
+            System.out.print(a[m]);
         }
     }
     public static void main(String[] args) {
-        int[] a = {0,2,1,0,1};
+        int[] a = {1,1,1,0,0,0,2,2,1,0,0,1,2,0,1,0};
          dutchNationalFlag(a);
     }
 }
