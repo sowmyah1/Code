@@ -1,6 +1,6 @@
 package org.example;
 
-public class Stack {
+public class StackUsage {
      static int[] stack = new int[2];
      static int top=-1;
     public static void push(int a){
