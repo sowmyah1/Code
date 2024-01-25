@@ -1,8 +1,6 @@
 package org.example;
 
-import java.util.Scanner;
-
-public class LinkedListDemo {
+public class LinkedListAdditionOfElements {
     public static class Node{
         String data;
 
@@ -44,9 +42,9 @@ public class LinkedListDemo {
     }
 
     public static void main(String[] args) {
-     LinkedListDemo list = new LinkedListDemo();
-//    addFirst("string");
-//    addFirst(" im string2");
+     LinkedListAdditionOfElements list = new LinkedListAdditionOfElements();
+    addFirst("string");
+    addFirst(" im string2");
         addFirst("Im add at first");
         addFirst("Im add at first");
         addFirst("Im add at first");
@@ -57,8 +55,8 @@ public class LinkedListDemo {
     addLast("hello5");
     addLast("hello6");
     addLast("hello22");
+
     Node ptr = head;
-//        System.out.println(ptr.data);
     while(ptr.next != null){
         System.out.println(ptr.data);
         ptr = ptr.next;

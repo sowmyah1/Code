@@ -27,5 +27,13 @@ public class Even {
             System.out.println(index+1);
         else
             System.out.println(-1);
+
+        String s1 = "qwerty";
+        String s2 = "asdfgh";
+        String s3 = "zxcvbn";
+        String s4 = s1.concat(s2);
+        s4 =s4.concat(s3);
+        System.out.println(s4);
+        System.out.println(s1+s2+s3);
         }
     }

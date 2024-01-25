@@ -30,6 +30,12 @@ public class Parantheses {
 
     public static void main(String[] args) {
         boolean a = parentheses("({{{{}}}))");
+        String s = "werty,edft,yhkmrtg,ifknv";
+        String[] s1= s.split(",");
+        for (int i=0;i<s1.length;i++){
+
+        System.out.println(s1[i]);
+        }
         System.out.println(a);
     }
 }
